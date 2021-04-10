@@ -1,0 +1,20 @@
+https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/
+
+Google search
+class="vk_c vk_gy vk_sh card-section sL6Rbf"
+class="vk_c vk_gy vk_sh card-section sL6Rbf"
+https://www.google.com/search?q=what+timezone+is+nevada
+
+https://stackoverflow.com/questions/32655076/cheerio-jquery-selectors-how-to-get-a-list-of-elements-in-nested-divs
+
+How to get Nth child (CSS selectors)
+https://github.com/cheeriojs/cheerio/issues/143
+
+https://cheerio.js.org/
+
+Async await + Promise.all 
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await
+
+https://blog.pusher.com/promises-async-await/
+Inside a function marked as async, you are allowed to place the await keyword in front of an expression that returns a Promise. When you do, the execution is paused until the Promise is resolved.
+

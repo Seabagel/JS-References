@@ -1,0 +1,17 @@
+How do I get a YouTube video thumbnail from the YouTube API?
+https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api
+
+Thumbnails
+https://developers.google.com/youtube/v3/docs/thumbnails
+
+Get youtube video's title with jQuery using youtube api
+https://stackoverflow.com/questions/2478391/get-youtube-videos-title-with-jquery-using-youtube-api#:~:text=In%20order%20to%20make%20a,Snippet%20Title%20%2D%20The%20video%27s%20title.
+
+Extracting Title Description Thumbnail using Youtube Data API
+https://phppot.com/php/extracting-title-description-thumbnail-using-youtube-data-api/
+
+How to extract YouTube Video Titles using the YouTube Data API?
+https://medium.com/analytics-vidhya/how-to-extract-youtube-video-titles-using-the-youtube-data-api-45d3f4998486
+
+Get the info from embedded iframe
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z-AI4ZalbR4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

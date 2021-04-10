@@ -1,0 +1,36 @@
+Update NPM
+npm i npm@latest -g
+npm install -g npm@7
+https://docs.npmjs.com/try-the-latest-stable-version-of-npm
+
+Set up Node.js after cloning repository
+git clone <repository>
+cd <repo_folder>
+npm i
+upload config.json
+nohup node . &
+
+Install new and delete old package
+npm install -D webpack-cli@3
+
+Webpack combines all your javascript into one file
+
+How to write and build JS Library
+https://medium.com/@kelin2025/so-you-wanna-use-es6-modules-714f48b3a953
+
+How do I write files in Node.js?
+https://nodejs.org/en/knowledge/file-system/how-to-write-files-in-nodejs/
+
+fs = require('fs');
+fs.writeFile('helloworld.txt', 'Hello World!', function (err) {
+  if (err) return console.log(err);
+  console.log('Hello World > helloworld.txt');
+});
+
+// Reading a file with NodeJS
+https://code-maven.com/reading-a-file-with-nodejs
+
+
+// Run NodeJS app run permanently - npm install forever -g
+https://stackoverflow.com/questions/12701259/how-to-make-a-node-js-application-run-permanently/33360288#33360288
+forever start --minUptime 1 --spinSleepTime 1000 -w server.js

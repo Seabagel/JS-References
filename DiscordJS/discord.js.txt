@@ -1,0 +1,22 @@
+Using Webpack
+https://stackoverflow.com/questions/52772346/is-it-possible-to-make-a-discord-js-website-and-how
+https://github.com/discordjs/discord.js/blob/6b3bfdd7dede049ba592e94ef1b1acc40a5e37fe/docs/topics/web.md
+https://github.com/discordjs/discord.js/tree/webpack
+https://discord.js.org/#/docs/main/stable/topics/web
+Amishshah - the bot will stay running as long as the user viewing the page
+keeps it open.
+
+Using a Rest API
+https://discordjs.guide/additional-info/rest-api.html#making-http-requests-with-node
+
+Discord.js command 
+https://discordjs.guide/command-handling/
+
+Discord.js Dynamic commands
+https://discordjs.guide/command-handling/dynamic-commands.html#how-it-works
+https://github.com/discordjs/guide/tree/master/code-samples/command-handling/file-setup/12
+
+Using Embeds
+https://github.com/AnIdiotsGuide/discordjs-bot-guide/blob/master/first-bot/using-embeds-in-messages.md
+https://discordjs.guide/popular-topics/embeds.html#embed-preview
+https://leovoel.github.io/embed-visualizer/

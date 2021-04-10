@@ -1,0 +1,38 @@
+https://www.npmjs.com/package/webpack
+
+How to install webpack
+https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/
+$ npm i webpack webpack-dev-server webpack-cli --save--dev
+
+The --save--dev is to specify that these modules are just dev dependencies. Now since we are working with React, we must keep in mind that React uses ES6 classes and import statements, something that all the browsers may not be able to understand. To make sure that the code is readable by all browsers, we need a tool like babel to transpile our code to normal readable code for browsers.
+
+Webpack unable to resolve dependency tree
+https://github.com/npm/cli/issues/2119
+
+This seems like expected behavior. You have webpack@5.3.2 installed and you're trying to install webpack-dev-server@3.11.0 which transitively peer-depends on webpack@^4.0.0. These webpack ranges are incompatible, as the error mentions.
+
+You can fix it by using webpack@4 instead of webpack@5. webpack-dev-server@3 is not compatible with webpack@5.
+
+(IMO, npm's output here is not very friendly. It's nice that it identifies all of the relevant packages, but if I didn't know much about peer dependencies, I could imagine being quite confused about what's wrong and what to do next. The message doesn't explicitly mention that it's a peer dependency issue -- it says "peer" but it also says "dev" and many other things -- and "fix the upstream dependency conflict" is not actionable.)
+
+Installation | webpack
+https://webpack.js.org/guides/installation/
+npm install --save-dev webpack@<version>
+If you're using webpack v4 or later, you'll also need to install the CLI.
+npm install --save-dev webpack-cli webpack-dev-server
+"scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js"
+  },
+
+"devDependencies": {
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  },
+
+https://github.com/webpack-contrib/css-loader/issues/447
+add the following to your Webpack config:
+
+node: {
+   fs: "empty"
+}
